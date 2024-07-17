@@ -6,7 +6,7 @@ CREATE TABLE Sender (
     userID INT PRIMARY KEY,
     name VARCHAR(30) NOT NULL,
     email VARCHAR(30) NOT NULL,
-    phone INT(12) NOT NULL,
+    phone VARCHAR(20) NOT NULL,
     address VARCHAR(30) NOT NULL,
     city VARCHAR(30) NOT NULL,
     country VARCHAR(30) NOT NULL
@@ -15,7 +15,7 @@ CREATE TABLE Sender (
 CREATE TABLE Receiver (
     receiverID INT PRIMARY KEY,
     name VARCHAR(30) NOT NULL,
-    phone INT(12) NOT NULL,
+    phone VARCHAR(20) NOT NULL,
     address VARCHAR(30) NOT NULL,
     city VARCHAR(30) NOT NULL,
     country VARCHAR(30) NOT NULL
